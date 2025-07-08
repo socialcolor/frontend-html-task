@@ -42,7 +42,7 @@ Error generating stack: `+t.message+`
   border: 1px solid red;
   position: relative;
   width: ${c=>c.theme.isSidebarOpened?"200px":"60px"};
-  height: calc(100vh - 40px);
+  height: calc(100dvh - 40px);
   margin-top: 20px;
   margin-left: 20px;
   white-space: nowrap;
