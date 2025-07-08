@@ -186,7 +186,8 @@ Error generating stack: `+t.message+`
     padding: 0;
     background-color: ${({theme:c})=>c.colors[c.currentTheme].colorSidebarBackgroundActive};
     color: ${({theme:c})=>c.colors[c.currentTheme].colorTextDefault};
-    transition: all 350ms ease-out;
+    transition: color 350ms ease-out,
+    background-color 350ms ease-out;
   }
   *, *::after, *::before {
     box-sizing: border-box;
