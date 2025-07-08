@@ -40,7 +40,8 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     background-color: ${({ theme }) => theme.colors[theme.currentTheme].colorSidebarBackgroundActive};
     color: ${({ theme }) => theme.colors[theme.currentTheme].colorTextDefault};
-    transition: all 350ms ease-out;
+    transition: background-color 350ms ease-out,
+    color 350ms ease-out;
   }
   *, *::after, *::before {
     box-sizing: border-box;
