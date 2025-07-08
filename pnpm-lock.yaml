@@ -20,6 +20,9 @@ importers:
       classnames:
         specifier: ^2.5.1
         version: 2.5.1
+      prop-types:
+        specifier: ^15.8.1
+        version: 15.8.1
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -29,6 +32,9 @@ importers:
       styled-components:
         specifier: ^6.1.19
         version: 6.1.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      styled-normalize:
+        specifier: ^8.1.1
+        version: 8.1.1(styled-components@6.1.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
     devDependencies:
       '@types/react':
         specifier: ^18.2.55
@@ -51,6 +57,9 @@ importers:
       eslint-plugin-react-refresh:
         specifier: ^0.4.5
         version: 0.4.20(eslint@8.57.1)
+      prettier:
+        specifier: ^3.6.2
+        version: 3.6.2
       sass:
         specifier: ^1.71.0
         version: 1.89.2
@@ -1304,6 +1313,11 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+
   prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
 
@@ -1471,6 +1485,11 @@ packages:
     peerDependencies:
       react: '>= 16.8.0'
       react-dom: '>= 16.8.0'
+
+  styled-normalize@8.1.1:
+    resolution: {integrity: sha512-Nd6iLDjKuxotRHSewe+qFqvw33WxIotbjZ3YkC8802manACBchUIb7vJt/C8ylDrO5850HmlnQTApwJLuN9sug==}
+    peerDependencies:
+      styled-components: ^4.0.0 || ^5.0.0 || ^6.0.0
 
   stylis@4.3.2:
     resolution: {integrity: sha512-bhtUjWd/z6ltJiQwg0dUfxEJ+W+jdqQd8TbWLWyeIJHlnsqmGLRFFd8e5mA0AZi/zx90smXRlN66YMTcaSFifg==}
@@ -2931,6 +2950,8 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
+  prettier@3.6.2: {}
+
   prop-types@15.8.1:
     dependencies:
       loose-envify: 1.4.0
@@ -3182,6 +3203,10 @@ snapshots:
       shallowequal: 1.1.0
       stylis: 4.3.2
       tslib: 2.6.2
+
+  styled-normalize@8.1.1(styled-components@6.1.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
+    dependencies:
+      styled-components: 6.1.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
   stylis@4.3.2: {}
 
