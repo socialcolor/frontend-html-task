@@ -134,6 +134,10 @@ export const MenuButton = styled.button`
     color: ${props => props.theme.colors[props.theme.currentTheme].colorTextActive};
     background-color: ${props => props.theme.colors[props.theme.currentTheme].colorButtonBackgroundActive};
   }
+
+  @media screen and (min-width: 320px) and ( max-width: 768px) {
+    margin-bottom: 0;
+  }
 `;
 
 export const ButtonText = styled.span`

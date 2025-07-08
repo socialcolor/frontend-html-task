@@ -47,7 +47,7 @@ export default function Sidebar() {
         <S.MenuListBottom>
           <S.MenuItem>
           <S.MenuButton onClick={themeToggl}>
-            <FontAwesomeIcon icon="fa-solid fa-sun" /> <S.ButtonText>Theme</S.ButtonText>
+            <FontAwesomeIcon icon={currentTheme === "light" ? "fa-solid fa-sun" : "fa-solid fa-moon"} /> <S.ButtonText>Theme</S.ButtonText>
           </S.MenuButton>
           </S.MenuItem>
           {bottomRoutes.map(route => (
