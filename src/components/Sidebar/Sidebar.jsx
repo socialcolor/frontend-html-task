@@ -5,7 +5,6 @@ import { ThemeProvider } from "styled-components";
 import { theme, GlobalStyle } from "../../theme/theme";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from "../../assets/logo.png";
-import PropTypes from "prop-types";
 
 export default function Sidebar() {
   const [isOpened, setIsOpened] = useState(true);
@@ -69,9 +68,4 @@ export default function Sidebar() {
     </ThemeProvider>
   );
 }
-
-Sidebar.propTypes = {
-  themeColor: PropTypes.string,
-  setThemeColor: PropTypes.func,
-};
 
